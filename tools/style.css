@@ -1,0 +1,77 @@
+/* Reset */
+
+@import url(https://www.google.com/fonts#UsePlace:use/Collection:Playfair+Display:700);
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,dfn,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+
+body{
+margin:0;
+padding:0;
+background: #2c3e50;
+/*font-family: Helvetica Neue, Helvetica, Arial;*/
+font-family: "Playfair Display";
+}
+
+.container{
+width: 636px;
+margin: 0 auto;
+}
+
+.header{
+width:636px;
+float: left;
+padding-top: 20px;
+}
+.logofont{
+width: 600px;
+margin: 0 auto 30px auto;
+text-shadow: 1px 1px 7px #3e3935;
+font-size: 100px;
+color: #fff;
+display: block;
+text-align: center;
+padding: 20px
+}
+
+a.logo{
+width: 600px;
+margin: 0 auto 30px auto;
+text-shadow: 1px 1px 7px #3e3935;
+filter: dropshadow(color=#3e3935, offx=1, offy=1);
+font-size: 70px;
+color: #fff;
+display: block;
+text-align: center;
+}
+
+a.logo span{
+display: block;
+text-align: center;
+font-size: 11px;
+letter-spacing: 4px;
+text-transform: uppercase;
+}
+
+
+.logoimg{
+	width: 600px;
+	height: 250px;
+	padding: 10px;
+}
+
+.clear{
+clear: both;
+}
+
+
+.coming_soon{
+width: 636px;
+float: left;
+}
+
+p{
+color: #fff;
+font-size: 16px;
+text-align: center;
+}
+
